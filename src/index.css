@@ -11,14 +11,14 @@
 
 :root {
   --bg: #373535;
-  --bg2: #111111;
-  --bg3: #181818;
-  --surface: #1e1e1e;
+  --bg2: #212020;
+  --bg3: #2c2b2b;
+  --surface: #2e2c2c;
   --border: #2a2a2a;
   --accent: #17b888;
   --accent2: #6ae2be;
-  --text: #f0ede6;
-  --muted: #7a7a7a;
+  --text: #f5f5f5;
+  --muted: #938f8f;
   --serif: "DM Serif Display", Georgia, serif;
   --mono: "Space Mono", "Courier New", monospace;
 }
@@ -31,7 +31,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 40px;
   line-height: 1.7;
   overflow-x: hidden;
 }
