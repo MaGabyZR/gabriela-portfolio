@@ -9,7 +9,7 @@
 }
 
 .label {
-  font-size: 11px;
+  font-size: 18px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent);
@@ -19,7 +19,9 @@
   gap: 0.7rem;
 }
 
-.label span:first-child { color: var(--muted); }
+.label span:first-child {
+  color: var(--muted);
+}
 
 .grid {
   display: grid;
@@ -43,7 +45,7 @@
 
 .text p {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin-bottom: 1.2rem;
   line-height: 1.9;
 }
@@ -68,9 +70,13 @@
   transition: border-color 0.2s;
 }
 
-.cert:hover { border-color: var(--accent); }
+.cert:hover {
+  border-color: var(--accent);
+}
 
-.certIcon { font-size: 14px; }
+.certIcon {
+  font-size: 14px;
+}
 
 /* Aside cards */
 .infoCard {
@@ -103,7 +109,9 @@
   color: var(--text);
 }
 
-.key { color: var(--muted); }
+.key {
+  color: var(--muted);
+}
 
 .emailCard {
   background: rgba(200, 240, 106, 0.05);
@@ -129,13 +137,17 @@
   transition: opacity 0.2s;
 }
 
-.email:hover { opacity: 0.7; }
+.email:hover {
+  opacity: 0.7;
+}
 
 .eduItem {
   margin-bottom: 0.9rem;
 }
 
-.eduItem:last-child { margin-bottom: 0; }
+.eduItem:last-child {
+  margin-bottom: 0;
+}
 
 .eduDeg {
   display: block;
@@ -149,6 +161,11 @@
 }
 
 @media (max-width: 900px) {
-  .section { padding: 5rem 1.5rem; }
-  .grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .section {
+    padding: 5rem 1.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
 }
